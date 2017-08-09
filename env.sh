@@ -1,0 +1,10 @@
+export TF_VAR_tenancy_ocid=<REPLACE WITH YOUR TENANCY OCID>
+export TF_VAR_user_ocid=<REPLACE WITH YOUR USER OCID>
+export TF_VAR_fingerprint=<REPLACE WITH YOUR FINGERPRINT>
+export TF_VAR_private_key_path="/opt/orchestration/bmcs/oraclebmc/bmcs_api_key.pem"
+export TF_VAR_ssh_public_key="/opt/orchestration/bmcs/oraclebmc/ssh_authorized_keys.pub"
+export TF_VAR_ssh_authorized_private_keys="/opt/orchestration/bmcs/oraclebmc/ssh_authorized_keys.pem"
+export TF_VAR_private_key_password="pass"
+export TF_VAR_compartment_ocid=<REPLACE WITH YOUR COMAPRTMENT OCID>
+export TF_VAR_vm_image_ocid=<REPLACE WITH YOUR IMAGE OCID>
+export TF_VAR_shape="VM.Standard1.2"
